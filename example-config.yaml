@@ -1,0 +1,11 @@
+ping_interval: 10
+ping_timeout_ms: 2000
+tcp_timeout_ms: 3000
+http_port: 9116
+max_concurrent_checks: 100
+
+hosts:
+  - 8.8.8.8
+  - google.com
+  - address: example.com
+    ports: [80, 443]

@@ -1,0 +1,5 @@
+include README.md
+include requirements.txt
+include example-config.yaml
+recursive-include network_exporter *.py
+recursive-include docker Dockerfile
